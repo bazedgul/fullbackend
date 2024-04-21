@@ -1,7 +1,7 @@
 // require('dotenv').config({path: './env'})  this is common js - making inconsistency we are using module js
 import dotenv from 'dotenv';
 import ConnectDB from "./db/index.js";
-
+import { app } from './app.js';
 dotenv.config({
     path: '../env'
 })
